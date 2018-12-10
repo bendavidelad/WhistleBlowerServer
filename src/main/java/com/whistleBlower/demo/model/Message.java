@@ -12,7 +12,6 @@ public class Message {
         this.sender = sender;
         this.group = group;
         this.time = System.currentTimeMillis();
-        // TODO send message to clients
     }
 
     public String getContent() {

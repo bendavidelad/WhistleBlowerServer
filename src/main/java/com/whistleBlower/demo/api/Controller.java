@@ -1,10 +1,9 @@
 package com.whistleBlower.demo.api;
 
 import com.whistleBlower.demo.buisness_logic.BusinessLogic;
-import com.whistleBlower.demo.buisness_logic.model.Group;
-import com.whistleBlower.demo.buisness_logic.model.Message;
-import com.whistleBlower.demo.buisness_logic.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.whistleBlower.demo.model.Group;
+import com.whistleBlower.demo.model.Message;
+import com.whistleBlower.demo.model.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;

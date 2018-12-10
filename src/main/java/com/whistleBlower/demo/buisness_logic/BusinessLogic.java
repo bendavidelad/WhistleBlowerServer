@@ -1,18 +1,16 @@
 package com.whistleBlower.demo.buisness_logic;
 
-import com.whistleBlower.demo.buisness_logic.model.Group;
-import com.whistleBlower.demo.buisness_logic.model.Message;
-import com.whistleBlower.demo.buisness_logic.model.User;
+import com.whistleBlower.demo.model.Group;
+import com.whistleBlower.demo.model.Message;
+import com.whistleBlower.demo.model.User;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 @Component

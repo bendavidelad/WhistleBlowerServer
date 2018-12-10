@@ -1,4 +1,4 @@
-package com.whistleBlower.demo.buisness_logic.model;
+package com.whistleBlower.demo.model;
 
 import java.util.ArrayList;
 import java.util.List;

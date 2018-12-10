@@ -1,4 +1,4 @@
-package com.whistleBlower.demo.buisness_logic.model;
+package com.whistleBlower.demo.model;
 
 public class Message {
 
